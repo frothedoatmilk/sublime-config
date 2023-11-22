@@ -1,0 +1,29 @@
+// SublimeLinter Settings - User
+{
+	"debug": true,
+	"linters": {
+		"eslint": {
+			"env": { "PATH": "~/.nodenv/versions/16.19.1/bin:$PATH" }
+		},
+		"stylelint": {
+			"args": ["--config", "${project_path}/.stylelintrc"],
+			"env": { "PATH": "~/.nodenv/versions/16.19.1/bin:$PATH" }
+		},
+		"rubocop": {
+			"executable": ["bundle", "exec", "rubocop"],
+			"args": ["-c", "${folder}/.rubocop.yml"],
+			"env": { "PATH": "~/.rbenv/shims:$PATH" }
+		}
+	},
+	"paths": {
+		"osx": [
+			"~/.rbenv/shims",
+			"~/.nodenv/shims",
+			"$PATH"
+		],
+		"linux": [
+			"~/.local/share/rtx/shims",
+			"$PATH"
+		]
+	}
+}

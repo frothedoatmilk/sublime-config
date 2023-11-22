@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"Fix Mac Path",
+	],
+	"installed_packages":
+	[
+		"auto-save",
+		"Better CoffeeScript",
+		"FileIcons",
+		"Fix Mac Path",
+		"GitGutter",
+		"LaTeXTools",
+		"NeoVintageous",
+		"Package Control",
+		"RSpec",
+		"SCSS",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"SublimeLinter-haml-lint",
+		"SublimeLinter-rubocop",
+		"SublimeLinter-stylelint",
+		"Theme - Gravity",
+	],
+	"debug": false,
+}
