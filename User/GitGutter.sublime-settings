@@ -3,7 +3,7 @@
   "status_bar_text": [
         "{% if repo and branch %}",
             "{% if compare not in ('HEAD', branch, None) %}Comparing against {{compare}}, {% endif %}",
-            "{% if state %}File is {{state}}{% endif %}",
+            "{% if state %}{{state}}{% endif %}",
             "{% if deleted > 0 %}, {{deleted}}-{% endif %}",
             "{% if inserted > 0 %}, {{inserted}}+{% endif %}",
             "{% if modified > 0 %}, {{modified}}≠{% endif %}",
