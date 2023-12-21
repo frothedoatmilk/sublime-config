@@ -3,26 +3,24 @@
 	"debug": true,
 	"linters": {
 		"eslint": {
-			"args": ["--config", "${project_root}/.eslintrc.json"],
-			"env": { "PATH": "~/.nodenv/versions/16.19.1/bin:$PATH" },
+			"executable": ["rtx", "exec", "--", "eslint"],
+			"args": ["--config", "${folder}/.eslintrc"],
 			"working_dir": "${project_path}"
 		},
 		"stylelint": {
-			"args": ["--config", "${project_root}/.stylelintrc"],
-			"env": { "PATH": "~/.nodenv/versions/16.19.1/bin:$PATH" },
+			"executable": ["rtx", "exec", "--", "stylelint"],
+			"args": ["--config", "${folder}/.stylelintrc"],
 			"working_dir": "${project_path}"
 		},
 		"rubocop": {
 			"executable": ["bundle", "exec", "rubocop"],
 			"args": ["-c", "${folder}/.rubocop.yml"],
-			"env": { "PATH": "~/.rbenv/shims:$PATH" },
 			"working_dir": "${project_path}"
 		}
 	},
 	"paths": {
 		"osx": [
-			"~/.rbenv/shims",
-			"~/.nodenv/shims",
+			"$HOME/.local/share/rtx/shims",
 			"$PATH"
 		]
 	}
