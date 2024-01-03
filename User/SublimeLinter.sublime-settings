@@ -16,6 +16,11 @@
 			"executable": ["mise", "exec", "--", "rubocop"],
 			"args": ["-c", "${folder}/.rubocop.yml"],
 			"working_dir": "${project_path}",
-		}
+		},
+		"hamllint": {
+			"executable": ["mise", "exec", "--", "haml-lint"],
+			"args": ["-c", "${folder}/.haml-lint.yml"],
+			"working_dir": "${project_path}",
+		},
 	}
 }
