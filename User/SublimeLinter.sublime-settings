@@ -3,17 +3,17 @@
 	"debug": true,
 	"linters": {
 		"eslint": {
-			"env": {"PATH":"$HOME/.local/share/rtx/shims:$PATH"},
+			"env": {"PATH":"$HOME/.local/share/mise/shims:$PATH"},
 			"args": ["--config", "${folder}/.eslintrc"],
 			"working_dir": "${project_path}",
 		},
 		"stylelint": {
-			"env": {"PATH":"$HOME/.local/share/rtx/shims:$PATH"},
+			"env": {"PATH":"$HOME/.local/share/mise/shims:$PATH"},
 			"args": ["--config", "${folder}/.stylelintrc"],
 			"working_dir": "${project_path}",
 		},
 		"rubocop": {
-			"executable": ["rtx", "exec", "--", "rubocop"],
+			"executable": ["mise", "exec", "--", "rubocop"],
 			"args": ["-c", "${folder}/.rubocop.yml"],
 			"working_dir": "${project_path}",
 		}
