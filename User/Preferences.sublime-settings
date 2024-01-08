@@ -1,10 +1,7 @@
 {
 	"ignored_packages":
 	[
-		"Fix Mac Path",
-		"Six",
 		"Vintage",
-		"Vintageous",
 	],
 	"theme": "Gravity.sublime-theme",
 	"color_scheme": "Monokai Gravity.sublime-color-scheme",
@@ -17,4 +14,5 @@
 	"neovintageous_build_version": 13200,
 	"vintageous_use_super_keys": false,
 	"hardware_acceleration": "opengl",
+	"index_files": true,
 }
