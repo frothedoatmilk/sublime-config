@@ -1,0 +1,7 @@
+// Settings in here override those in "LSP-eslint/LSP-eslint.sublime-settings"
+
+{
+  "env": {
+    "PATH": "/Users/lpate-af/.local/share/mise/shims:/usr/local/bin"
+  }
+}
