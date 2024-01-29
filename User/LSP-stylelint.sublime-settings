@@ -1,0 +1,8 @@
+// Settings in here override those in "LSP-stylelint/LSP-stylelint.sublime-settings"
+
+{
+  "settings": {
+    "stylelint.packageManager": "yarn",
+    "stylelint.validate": ["css", "scss", "postcss", "less"],
+  }
+}

@@ -2,20 +2,15 @@
 {
 	"debug": true,
 	"linters": {
-		"eslint": {
-			"env": {"PATH":"$HOME/.local/share/mise/shims:$PATH"},
-			"args": ["--config", "${folder}/.eslintrc"],
-			"working_dir": "${project_path}",
-		},
-		"stylelint": {
-			"env": {"PATH":"$HOME/.local/share/mise/shims:$PATH"},
-			"args": ["--config", "${folder}/.stylelintrc"],
-			"working_dir": "${project_path}",
-		},
 		"hamllint": {
-			"executable": ["mise", "exec", "--", "haml-lint"],
+      "executable": ["bundle", "exec", "--", "haml-lint"],
 			"args": ["-c", "${folder}/.haml-lint.yml"],
 			"working_dir": "${project_path}",
 		},
+	},
+	"paths": {
+		"osx": [
+			"~/.local/share/mise/shims"
+		]
 	}
 }

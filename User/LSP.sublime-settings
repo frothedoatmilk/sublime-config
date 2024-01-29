@@ -8,9 +8,6 @@
       "initializationOptions": {
          "diagnostics": true
       },
-      "env": {
-        "PATH": "/Users/lpate-af/.local/share/mise/shims:/usr/local/bin"
-      }
-    }
+    },
   }
 }
