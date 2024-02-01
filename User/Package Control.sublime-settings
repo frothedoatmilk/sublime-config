@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"Better CoffeeScript",
+		"Debugger",
 		"FileIcons",
 		"GitGutter",
 		"JsPrettier",
@@ -14,6 +15,7 @@
 		"LSP-stylelint",
 		"LSP-typescript",
 		"NeoVintageous",
+		"npm",
 		"Package Control",
 		"RSpec",
 		"Sass",
