@@ -10,6 +10,7 @@
 		"FileIcons",
 		"GitGutter",
 		"JsPrettier",
+		"Liquid",
 		"LSP",
 		"LSP-eslint",
 		"LSP-stylelint",
