@@ -15,7 +15,6 @@
 		"LSP-eslint",
 		"LSP-stylelint",
 		"LSP-typescript",
-		"LSP-volar",
 		"NeoVintageous",
 		"npm",
 		"Package Control",
@@ -25,7 +24,6 @@
 		"SublimeLinter",
 		"SublimeLinter-haml-lint",
 		"Theme - Gravity",
-		"Vue Syntax Highlight",
 	],
 	"debug": false,
 }

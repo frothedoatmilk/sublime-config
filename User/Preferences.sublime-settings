@@ -16,5 +16,5 @@
 	"hardware_acceleration": "opengl",
 	"index_files": true,
 	"hot_exit": false,
-	"remember_open_files": false
+	"remember_open_files": false,
 }
